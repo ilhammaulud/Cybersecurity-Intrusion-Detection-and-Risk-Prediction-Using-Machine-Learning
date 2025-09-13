@@ -45,20 +45,13 @@ Additionally, pipelines and ColumnTransformer were applied to streamline preproc
 
 ## Reference
 
-
-Dataset Cybersecurity Intrusion Detection: https://www.kaggle.com/datasets/dnkumars/cybersecurity-intrusion-detection-dataset
-
-Dokumentasi Streamlit (untuk deployment aplikasi web interaktif): https://docs.streamlit.io/
-
-Dokumentasi Scikit-Learn (untuk machine learning & preprocessing): https://scikit-learn.org/stable/documentation.html
-
-XGBoost Documentation: https://xgboost.readthedocs.io/
-
-Dashboard: Plotly https://plotly.com/python/
-
-**Referensi tambahan:**
+- Dataset Cybersecurity Intrusion Detection: https://www.kaggle.com/datasets/dnkumars/cybersecurity-intrusion-detection-dataset
+- Dokumentasi Streamlit (untuk deployment aplikasi web interaktif): https://docs.streamlit.io/
+- Dokumentasi Scikit-Learn (untuk machine learning & preprocessing): https://scikit-learn.org/stable/documentation.html
+- XGBoost Documentation: https://xgboost.readthedocs.io/
+- Dashboard: Plotly https://plotly.com/python/
 - [Basic Writing and Syntax on Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Contoh readme](https://github.com/fahmimnalfrzki/Swift-XRT-Automation)
-- [Another example](https://github.com/sanggusti/final_bangkit) (**Must read**)
-
+- [readme](https://github.com/fahmimnalfrzki/Swift-XRT-Automation)
+- [Another example](https://github.com/sanggusti/final_bangkit)
 - [Additional reference](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+
