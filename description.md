@@ -2,61 +2,51 @@
 
 ## Repository Outline
 
-1. README.md - Penjelasan gambaran umum project
-2. P1M2_Ilham_Maulud.ipynb - notebook yang berisi pengolahan data dengan python
-3. P1M2_Ilham_Maulud_inf.ipynb - Notebook yang berisi percobaan model dengan data inference
-4. url.txt - Berisi link streamlit
-5. dataset.csv - Berisi dataset yang digunakan
-6. folder deployment - Berisi file yang di gunakan untuk deployment
-7. XGBoost_best_model.joblib - Model yang sudah di save
+1. README.md - Project overview explanation
+2. P1M2_Ilham_Maulud.ipynb - Notebook containing data processing with Python
+3. P1M2_Ilham_Maulud_inf.ipynb - Notebook containing model experiments with inference data
+4. url.txt - Contains the Streamlit link
+5. dataset.csv - Contains the dataset used
+6. deployment folder - Contains files used for deployment
+7. XGBoost_best_model. joblib - Saved Model
 
 
 ## Problem Background
-Dalam era digital saat ini, serangan siber menjadi ancaman serius bagi keamanan data dan jaringan organisasi. Banyak sistem masih mengandalkan metode deteksi tradisional yang kurang efektif dalam mengenali pola serangan baru. Project ini bertujuan untuk membangun model prediksi risiko intrusi siber menggunakan data transaksi jaringan, sehingga dapat mengidentifikasi potensi serangan secara otomatis dan akurat. Dengan model ini, organisasi dapat meningkatkan keamanan jaringan dan mengurangi kerugian akibat insiden siber.
+In today's digital age, cyberattacks have become a serious threat to the security of organizational data and networks. Many systems still rely on traditional detection methods that are less effective at recognizing new attack patterns. This project aims to build a cyber intrusion risk prediction model using network transaction data, enabling the automatic and accurate identification of potential attacks. With this model, organizations can enhance network security and reduce losses from cyber incidents.
 
 ## Project Output
-Project ini menghasilkan model machine learning untuk deteksi risiko intrusi siber. Model ini mampu mengklasifikasikan aktivitas jaringan menjadi aman atau berisiko dengan akurasi tinggi setelah melalui proses preprocessing, scaling, dan hyperparameter tuning. Output lain dari project ini termasuk laporan evaluasi performa model (precision, recall, f1-score, dan accuracy) serta rekomendasi strategi mitigasi berdasarkan hasil prediksi.
+This project produces a machine learning model for detecting cyber intrusion risks. This model is capable of classifying network activities as safe or risky with high accuracy after undergoing preprocessing, scaling, and hyperparameter tuning. Other outputs of this project include a model performance evaluation report (precision, recall, f1-score, and accuracy) and recommendations for mitigation strategies based on prediction results.
 
 ## Data
-Data yang digunakan berasal dari dataset Cybersecurity Intrusion Detection yang berisi informasi aktivitas jaringan untuk mendeteksi serangan siber. Dataset ini memiliki 10 kolom fitur yang mencakup informasi numerik dan kategorikal seperti session_id, network_packet_size, protocol_type, login_attempts, dan lainnya. Dataset terdiri dari 9.537 baris dan 10 kolom, dengan beberapa fitur kategorikal yang telah ditangani menggunakan One-Hot Encoding dan fitur numerik yang telah di-scale untuk meningkatkan performa model. Secara keseluruhan, data siap digunakan untuk training dan evaluasi model klasifikasi risiko intrusi.
+The data used comes from the Cybersecurity Intrusion Detection dataset, which contains network activity information for detecting cyberattacks. This dataset has 10 feature columns that include numerical and categorical information such as session_id, network_packet_size, protocol_type, login_attempts, and others. The dataset consists of 9,537 rows and 10 columns, with some categorical features handled using One-Hot Encoding and numerical features scaled to improve model performance. Overall, the data is ready to be used for training and evaluating the intrusion risk classification model.
 
 ## Method
-Metode yang digunakan pada project ini adalah Supervised Learning untuk klasifikasi risiko intrusi siber. Prosesnya meliputi preprocessing data, yaitu menangani kolom numerik dengan scaling dan kolom kategorikal dengan One-Hot Encoding, agar data siap dimasukkan ke dalam model. Beberapa algoritma classification diuji, termasuk Decision Tree, Random Forest, Gradient Boosting, KNN, SVM, dan XGBoost. Model dievaluasi menggunakan Cross Validation untuk mendapatkan rata-rata akurasi dan standar deviasi, sehingga dapat memilih model terbaik sebelum dilakukan hyperparameter tuning.
+The method used in this project is Supervised Learning for classifying cyber intrusion risk. The process includes data preprocessing, which involves handling numerical columns with scaling and categorical columns with One-Hot Encoding, to prepare the data for input into the model. Several classification algorithms were tested, including Decision Tree, Random Forest, Gradient Boosting, KNN, SVM, and XGBoost. The models were evaluated using Cross Validation to obtain the average accuracy and standard deviation, allowing the best model to be selected before hyperparameter tuning was performed.
 
 ## Stacks
-Project ini menggunakan bahasa pemrograman Python dengan beberapa library dan tools utama untuk analisis data dan machine learning, antara lain:
+This project uses the Python programming language with several key libraries and tools for data analysis and machine learning, including:
 
-1. Pandas dan NumPy: manipulasi data dan komputasi numerik.
+1. Pandas and NumPy: data manipulation and numerical computation.
 
-2. Scikit-Learn: preprocessing data, pipeline, model machine learning, evaluasi, dan cross-validation.
+2. Scikit-Learn: data preprocessing, pipelines, machine learning models, evaluation, and cross-validation.
 
-3. XGBoost: implementasi model boosting untuk klasifikasi.
+3. XGBoost: implementation of a boosting model for classification.
 
-4. Matplotlib, Seaborn, dan Plotly: visualisasi data dan hasil analisis.
+4. Matplotlib, Seaborn, and Plotly: data visualization and analysis results.
 
-5. Streamlit: membangun aplikasi web interaktif untuk menampilkan hasil model dan dashboard.
+5. Streamlit: building interactive web applications to display model results and dashboards.
 
-Selain itu, project ini juga menggunakan pipelines dan ColumnTransformer untuk memudahkan preprocessing dan integrasi dengan berbagai model machine learning.
+Additionally, this project also utilizes pipelines and ColumnTransformer to simplify preprocessing and integration with various machine learning models.
 
 ## Reference
-Berikut beberapa referensi dan link pendukung yang digunakan dalam project ini:
+Here are some supporting references and links used in this project:
 
 Dataset Cybersecurity Intrusion Detection: https://www.kaggle.com/datasets/dnkumars/cybersecurity-intrusion-detection-dataset
 
-Dokumentasi Streamlit (untuk deployment aplikasi web interaktif): https://docs.streamlit.io/
+Streamlit: https://docs.streamlit.io/
 
-Dokumentasi Scikit-Learn (untuk machine learning & preprocessing): https://scikit-learn.org/stable/documentation.html
+Scikit-Learn: https://scikit-learn.org/stable/documentation.html
 
 XGBoost Documentation: https://xgboost.readthedocs.io/
 
-Referensi visualisasi dan dashboard interaktif: Plotly https://plotly.com/python/
-
-Link ini digunakan sebagai acuan dalam pemodelan, evaluasi, visualisasi, dan deployment project.
-
----
-
-**Referensi tambahan:**
-- [Basic Writing and Syntax on Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Contoh readme](https://github.com/fahmimnalfrzki/Swift-XRT-Automation)
-- [Another example](https://github.com/sanggusti/final_bangkit) (**Must read**)
-- [Additional reference](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+Reference visualization and dashboard: Plotly https://plotly.com/python/
