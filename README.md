@@ -3,13 +3,11 @@
 ## Repository Outline
 
 1. README.md – General project overview
-2. P1M2_Ilham_Maulud.ipynb – Notebook for data processing with Python
-3. P1M2_Ilham_Maulud_inf.ipynb – Notebook for model testing with inference data
+2. Working.ipynb – Notebook for data processing with Python
+3. Inference.ipynb – Notebook for model testing with inference data
 4. url.txt – Contains Streamlit deployment link
-5. dataset.csv – Dataset used in the project
-6. deployment folder – Files for deployment setup
-7. XGBoost_best_model.joblib – Saved best-performing model
-
+5. XGBoost_best_model.joblib – Saved best-performing model
+6. description.md - 
 
 ## Problem Background
 In today’s digital era, cyberattacks pose serious threats to organizational data and network security. Many systems still rely on traditional detection methods that struggle to identify new attack patterns. This project aims to build a machine learning model for predicting cybersecurity intrusion risks using network transaction data, enabling automatic and accurate detection of potential attacks. With this model, organizations can strengthen network security and minimize losses from cyber incidents.
@@ -50,6 +48,7 @@ Additionally, pipelines and ColumnTransformer were applied to streamline preproc
 - Scikit-Learn: https://scikit-learn.org/stable/documentation.html
 - XGBoost Documentation: https://xgboost.readthedocs.io/
 - Dashboard Plotly: https://plotly.com/python/
+
 
 
 
